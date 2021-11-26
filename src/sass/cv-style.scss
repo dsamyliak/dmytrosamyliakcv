@@ -2,6 +2,9 @@ body {
   background-color: #e5e5e5;
   font-family: 'Montserrat', sans-serif;
 }
+a {
+  text-decoration: none;
+}
 .main-container {
   display: flex;
   flex-direction: row-reverse;
@@ -102,7 +105,7 @@ body {
   margin-bottom: 10px;
 }
 .my-work-experience-company {
-  color: #fb6d3a;
+  color: #400174;
 }
 .my-work-experience-work-time {
   font-style: normal;
@@ -139,7 +142,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #400174;
   margin-bottom: 10px;
 }
 .my-education-profession {
@@ -165,7 +168,7 @@ body {
 /*****************/
 /*Sidebar section*/
 .sidebar {
-  background: #1e2939;
+  background: #400174;
   width: 370px;
   padding: 40px 0;
 }
@@ -196,7 +199,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #646c77;
+  color: rgb(216, 71, 71);
 }
 
 /*Tech skills section*/
@@ -205,7 +208,7 @@ body {
   margin-left: 40px;
 }
 .tech-skills-dots {
-  color: orangered;
+  color: rgb(216, 71, 71);
   padding: 0 0 0 17px;
 }
 .tech-skills-list-item {
@@ -222,7 +225,7 @@ body {
   margin-left: 40px;
 }
 .soft-skills-dots {
-  color: orangered;
+  color: rgb(216, 71, 71);
   padding: 0 0 0 17px;
 }
 .soft-skills-list-item {
