@@ -1,22 +1,22 @@
 {
-  "name": "parcel-project-template",
+  "name": "dmytrosamyliak-cv",
   "version": "1.1.0",
-  "description": "",
+  "description": "My first web CV",
   "main": "index.js",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://dsamyliak.github.io/dmytrosamyliak-cv/",
   "scripts": {
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/*.html --public-url /dmytrosamyliak-cv/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/dsamyliak/dmytrosamyliak-cv.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Dmytro Samyliak <dsamyliak@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/dsamyliak/dmytrosamyliak-cv/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
