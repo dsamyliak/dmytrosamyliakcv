@@ -5,6 +5,7 @@ body {
 a {
   text-decoration: none;
 }
+
 .main-container {
   display: flex;
   flex-direction: row-reverse;
@@ -28,9 +29,21 @@ a {
   color: #000000;
   margin-bottom: 10px;
 }
+.title-background {
+  margin: 0;
+  color: rgb(210, 111, 111);
+  background-color: #2e1e3a;
+  border-radius: 10px;
+  padding: 10px 0 10px 20px;
+  margin-left: -20px;
+}
 /********************/
 /* About me section */
+.about-me {
+}
+
 .about-me-profession {
+  margin: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -43,10 +56,10 @@ a {
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  color: rgb(210, 111, 111);
   margin-bottom: 25px;
 }
 .about-me-info {
+  margin: 0;
   width: 400px;
   font-style: normal;
   font-weight: normal;
@@ -180,6 +193,21 @@ a {
   line-height: 27px;
   color: #fff;
   margin-bottom: 10px;
+}
+
+/*My photo section*/
+.my-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.my-photo-overflow {
+  border: 2px solid rgb(210, 111, 111);
+  border-radius: 50%;
+  width: 70%;
+  margin: 0 auto;
+
+  overflow: hidden;
 }
 
 /*Contacts section*/
