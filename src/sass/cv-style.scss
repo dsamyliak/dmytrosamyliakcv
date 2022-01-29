@@ -1,6 +1,7 @@
 :root {
   --main-color: rgb(245, 150, 100);
   --accent-color: rgb(20, 80, 120);
+  --bold-font: 600;
 }
 body {
   background-color: #e5e5e5;
@@ -27,7 +28,7 @@ a {
 .main-content-title {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 22px;
   line-height: 27px;
   color: #000000;
@@ -47,7 +48,7 @@ a {
 .about-me-profession {
   margin: 0;
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 14px;
   line-height: 17px;
   color: #000;
@@ -55,14 +56,14 @@ a {
 }
 .about-me-name {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 45px;
   line-height: 55px;
   margin-bottom: 25px;
 }
 .about-me-info {
   margin: 0;
-  width: 400px;
+  width: 600px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -80,7 +81,7 @@ a {
 }
 .my-projects-item {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -98,11 +99,14 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: var(--main-color);
+}
+:hover.my-projects-link {
+  color: var(--accent-color);
 }
 .my-projects-brackets {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -113,7 +117,7 @@ a {
 }
 .my-work-experience-position {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 16px;
   line-height: 20px;
   color: #000000;
@@ -152,9 +156,12 @@ a {
 }
 
 /* Education */
+.my-education {
+  margin-bottom: 40px;
+}
 .my-education-university {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 16px;
   line-height: 20px;
   color: var(--accent-color);
@@ -162,7 +169,7 @@ a {
 }
 .my-education-profession {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -181,9 +188,12 @@ a {
 }
 
 /* Additional Education */
+.my-add-education {
+  margin-bottom: 40px;
+}
 .my-add-education-university {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 16px;
   line-height: 20px;
   color: var(--accent-color);
@@ -191,7 +201,7 @@ a {
 }
 .my-add-education-profession {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 14px;
   line-height: 17px;
   color: #000000;
@@ -213,13 +223,13 @@ a {
 /*Sidebar section*/
 .sidebar {
   background: var(--main-color);
-  width: 390px;
+  width: 70%;
   padding: 40px 0;
   border-radius: 10px;
 }
 .sidebar-title {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 22px;
   line-height: 27px;
   color: #fff;
@@ -244,11 +254,11 @@ a {
 /*Contacts section*/
 .contacts {
   margin-top: 50px;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .contacts-type {
   font-style: normal;
-  font-weight: bold;
+  font-weight: var(--bold-font);
   font-size: 14px;
   line-height: 24px;
   color: #fff;
@@ -265,7 +275,7 @@ a {
 /*Tech skills section*/
 .tech-skills {
   margin-top: 47px;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .tech-skills-dots {
   color: var(--accent-color);
@@ -282,7 +292,7 @@ a {
 /*Soft skills section*/
 .soft-skills {
   margin-top: 44px;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .soft-skills-dots {
   color: var(--accent-color);
@@ -299,7 +309,7 @@ a {
 /*Language skills section*/
 .language-skills {
   margin-top: 44px;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 .language-skills-dots {
   color: var(--accent-color);

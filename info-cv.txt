@@ -1,0 +1,34 @@
+SUMMARY
+1
+I am a Front-End developer looking for a full-time position in a company that's aimed at making both everyday 
+life and business easier, more productive and user-friendly. I have sound knowledge of HTML, CSS, JavaScript, and React. Also, I have hands-on experience in following Agile /Scrum methodology when working in a team. I am a fast learner, responsible, and ready for challenging tasks.
+2
+I am a Junior Front-End developer. I focus on HTML5, CSS3, JS, React. English — Intermediate. Looking for a remote job. Development, practice and work for the result are important for me. I intend to develop innovative technologies and deliver value to people. 
+3
+I'm Junior Front-End Developer looking for a remote position. As for me will be great to work in interesting projects that help people to be more productive and happier! My different knowledge such as HTML5, CSS, JS, React.js, Node.js may help to realize software part in various projects. I would like to work with team and improve my skills! I'm responsible, active, self-learning and desire to finish all my tasks intime!
+
+PROJECTS
+1
+Filmoteka 
+Project about searching movies, and adding favorite movies to a client personal library. Using pure JS, npm-packages and SCSS 
+Platano Fest 
+Music festival site. Using React, SCSS 
+IceCream 
+Ice Cream company site. Neat and tasty design, responsible layout. Using Parcel, SCSS, JS 
+2
+BARBERSHOP, Link [HTML, SASS, JS, Parcel] 
+A website with a responsive layout. Role: Team Lead. 
+FILMOTEKA, Link [HTML, SASS, JS, Handlebars, REST 
+API, AJAX, Parcel] 
+Application for choosing a movie. Role: Scrum Master 
+PRO TEST, Link [React, Redux, Axios, Styled Components, Node.js MongoDB] Application for testing knowledge of students who learn QA
+
+LINKS
+Link CV
+https://github.com/dsamyliak/dmytrosamyliak-cv
+
+Link Freedom3d Studio
+https://github.com/dsamyliak/39-team12-freedom3d
+
+Link Filmoteka-project
+https://github.com/dsamyliak/filmoteka-project
