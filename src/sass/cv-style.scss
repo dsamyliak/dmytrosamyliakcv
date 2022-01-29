@@ -1,3 +1,7 @@
+:root {
+  --main-color: rgb(245, 150, 100);
+  --accent-color: rgb(20, 80, 120);
+}
 body {
   background-color: #e5e5e5;
   font-family: 'Montserrat', sans-serif;
@@ -31,8 +35,8 @@ a {
 }
 .title-background {
   margin: 0;
-  color: rgb(210, 111, 111);
-  background-color: #2e1e3a;
+  color: var(--accent-color);
+  background-color: var(--main-color);
   border-radius: 10px;
   padding: 10px 0 10px 20px;
   margin-left: -20px;
@@ -116,7 +120,7 @@ a {
   margin-bottom: 10px;
 }
 .my-work-experience-company {
-  color: rgb(210, 111, 111);
+  color: var(--accent-color);
 }
 .my-work-experience-work-time {
   font-style: normal;
@@ -153,7 +157,7 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: rgb(210, 111, 111);
+  color: var(--accent-color);
   margin-bottom: 10px;
 }
 .my-education-profession {
@@ -176,10 +180,39 @@ a {
   color: black;
 }
 
+/* Additional Education */
+.my-add-education-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+.my-add-education-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.my-add-education-university-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 20px;
+}
+.my-add-education-university-time-divider {
+  color: black;
+}
+
 /*****************/
 /*Sidebar section*/
 .sidebar {
-  background: #2e1e3a;
+  background: var(--main-color);
   width: 390px;
   padding: 40px 0;
   border-radius: 10px;
@@ -200,7 +233,7 @@ a {
   height: auto;
 }
 .my-photo-overflow {
-  border: 2px solid rgb(210, 111, 111);
+  // border: 2px solid var(--accent-color);
   border-radius: 5%;
   width: 60%;
   margin: 0 auto;
@@ -226,7 +259,7 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: rgb(210, 111, 111);
+  color: var(--accent-color);
 }
 
 /*Tech skills section*/
@@ -235,7 +268,7 @@ a {
   margin-left: 40px;
 }
 .tech-skills-dots {
-  color: rgb(216, 71, 71);
+  color: var(--accent-color);
   padding: 0 0 0 17px;
 }
 .tech-skills-list-item {
@@ -252,7 +285,7 @@ a {
   margin-left: 40px;
 }
 .soft-skills-dots {
-  color: rgb(216, 71, 71);
+  color: var(--accent-color);
   padding: 0 0 0 17px;
 }
 .soft-skills-list-item {
@@ -269,7 +302,7 @@ a {
   margin-left: 40px;
 }
 .language-skills-dots {
-  color: rgb(216, 71, 71);
+  color: var(--accent-color);
   padding: 0 0 0 17px;
 }
 .language-skills-list-item {
