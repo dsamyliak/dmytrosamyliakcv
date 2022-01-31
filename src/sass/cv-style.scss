@@ -1,6 +1,7 @@
 :root {
   --main-color: rgb(245, 150, 100);
   --accent-color: rgb(20, 80, 120);
+  --gray-text: #757575;
   --bold-font: 600;
 }
 body {
@@ -131,7 +132,7 @@ a {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: var(--gray-text);
   margin-bottom: 10px;
 }
 .my-work-experience-divider {
@@ -180,7 +181,7 @@ a {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: var(--gray-text);
   margin-bottom: 20px;
 }
 .my-education-university-time-divider {
@@ -212,7 +213,7 @@ a {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: var(--gray-text);
   margin-bottom: 20px;
 }
 .my-add-education-university-time-divider {
@@ -258,7 +259,7 @@ a {
 }
 .contacts-type {
   font-style: normal;
-  font-weight: var(--bold-font);
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   color: #fff;
@@ -269,7 +270,18 @@ a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  color: white;
+}
+:hover.contacts-text {
   color: var(--accent-color);
+}
+
+.icon-svg {
+  fill: rgb(20, 80, 120);
+}
+
+:hover.icon-svg {
+  fill: white;
 }
 
 /*Tech skills section*/
@@ -299,6 +311,23 @@ a {
   padding: 0 0 0 17px;
 }
 .soft-skills-list-item {
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*Hard skills section*/
+.hard-skills {
+  margin-top: 44px;
+  margin-left: 35px;
+}
+.hard-skills-dots {
+  color: var(--accent-color);
+  padding: 0 0 0 17px;
+}
+.hard-skills-list-item {
   color: #fff;
   font-style: normal;
   font-weight: normal;
